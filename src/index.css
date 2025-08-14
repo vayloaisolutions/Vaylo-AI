@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom logo styling with blue filter that complements the website */
+.logo-blue-purple {
+  filter: brightness(0) saturate(100%) invert(27%) sepia(100%) saturate(2000%) hue-rotate(210deg) brightness(90%) contrast(120%);
+}
+
+/* Alternative filter for better visibility */
+.logo-blue-purple-alt {
+  filter: brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(2000%) hue-rotate(240deg) brightness(90%) contrast(120%);
+}
+
+/* Hover effect for logo with enhanced blue */
+.logo-hover:hover {
+  filter: brightness(0) saturate(100%) invert(30%) sepia(100%) saturate(2500%) hue-rotate(200deg) brightness(100%) contrast(130%);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
