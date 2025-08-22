@@ -21,7 +21,7 @@ const Projects = () => {
       features: ["Lead Qualification", "Property Scheduling", "24/7 Availability", "CRM Integration"]
     },
     {
-      title: "Small Business AI Receptionist",
+      title: "Vaylo AI Receptionist",
       description: "Smart voice assistant that handles customer inquiries, appointments, and business operations. Can reduce wait times as much as 60% and handles 3x more calls during peak hours.",
       category: "Small Business",
       image: "/image copy.png", // Use local image from public folder
